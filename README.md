@@ -35,6 +35,7 @@ def mostrar_menu():
 # Exibição do menu
 
 # Conversão de temperatura
+
 def converter_temperatura():
 # Função que faz a conversão
     celsius = ler_numero("\nDigite a temperatura em Celsius: ")
@@ -88,10 +89,10 @@ while True:
 # Mostra menu e lê opções válidas
     if opcao == "1":
         converter_temperatura()
-
+# Executa temperatura
     elif opcao == "2":
         converter_medidas()
-
+# Executa  medidas
     elif opcao == "3":
         converter_moeda()
 # Executa moedas
